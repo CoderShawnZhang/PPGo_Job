@@ -94,7 +94,7 @@ func (this *TaskController) List() {
 		list[k] = row
 	}
 
-	this.Data["pageTitle"] = "任务列表"
+	this.Data["pageTitle"] = "任务列123表"
 	this.Data["list"] = list
 	this.Data["groups"] = groups
 	this.Data["groupid"] = groupId
